@@ -44,45 +44,58 @@ ul{
 h1,.h1,.heading-1{
     font-family: 'helvetica','noto sans tc','arial','微軟正黑體','sans-serif';
     font-size: 56px;    
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.35;
     letter-spacing: -0.02em;
 }
 h2,.h2,.heading-2{
     font-family: 'helvetica','noto sans tc','arial','微軟正黑體','sans-serif';
-    font-size: 56px;    
-    font-weight: 600;
-    line-height: 1.35;
+    font-size: 48px;    
+    font-weight: 500;
+    line-height: 48px;
     letter-spacing: -0.02em;
 }
 h3,.h3,.heading-3{
     font-family: 'helvetica','noto sans tc','arial','微軟正黑體','sans-serif';
-    font-size: 56px;    
-    font-weight: 600;
-    line-height: 1.35;
+    font-size: 34px;    
+    font-weight: 400;
+    line-height: 48px;
     letter-spacing: -0.02em;
 }
 h4,.h4,.heading-4{
     font-family: 'helvetica','noto sans tc','arial','微軟正黑體','sans-serif';
-    font-size: 56px;    
-    font-weight: 600;
-    line-height: 1.35;
+    font-size: 24px;    
+    font-weight: 300;
+    line-height: 32px;
     letter-spacing: -0.02em;
 }
 h5,.h5,.heading-5{
     font-family: 'helvetica','noto sans tc','arial','微軟正黑體','sans-serif';
-    font-size: 56px;    
-    font-weight: 600;
-    line-height: 1.35;
-    letter-spacing: -0.02em;
+    font-size: 20px;    
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.02em;
 }
 h6,.h6,.heading-6{
     font-family: 'helvetica','noto sans tc','arial','微軟正黑體','sans-serif';
-    font-size: 56px;    
-    font-weight: 600;
-    line-height: 1.35;
-    letter-spacing: -0.02em;
+    font-size: 18px;    
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
 }
+p,.para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    color: #686c71;
+}
+.para.para--sm{
+    font-size: 14px;
+    line-height: 24px;
+    color: #686C71;
+}
+
 /* background color */
 .bgc--default{background-color: #F3F4F5;}
 .bgc--primary{background-color: #3ecf8e;}
