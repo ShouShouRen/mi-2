@@ -170,7 +170,7 @@
 }
 /* btn group */
 .btn-group{
-	border: 1px solid #000;
+	/* border: 1px solid #000; */
 	display: inline-flex;
 }
 .btn-group .btn:not(:last-child){
@@ -193,6 +193,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+.icon-btn:hover{
+    color:#fbfbfb;
+    background-color: #3ecf8e;
+}
+.social-btns{
+    display: inline-flex;
+    vertical-align: top;
+}
+.social-btns__icon-btn:not(:last-child){
+    margin-right: 8px;
 }
 /* card */
 .card{
