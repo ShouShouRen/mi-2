@@ -22,8 +22,14 @@
     line-height: 36px;
     padding: 0 32px;
     min-width: 64px;
-    
     /* style */
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'helvetica','noto sans tc','arial','微軟正黑體','sans-serif';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
     border: 1px solid #000;
 }
 .btn.btn--hover,
