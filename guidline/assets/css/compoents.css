@@ -11,8 +11,18 @@
 */
 
 /* botton */
+.btn{
 
+}
+.btn.btn--hover{
 
+}
+.btn:hover{
+    
+}
+.btn.btn--primary{
+
+}
 
 
 
