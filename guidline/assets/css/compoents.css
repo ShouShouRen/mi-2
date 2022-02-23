@@ -176,6 +176,24 @@
 .btn-group .btn:not(:last-child){
 	margin-right: 8px;
 }
+/* social btns */
+.icon-btn{
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #3ecf8e;
+    color: #3ecf8e;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+}
+.icon-btn i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 /* card */
 .card{
     background-color: #fbfbfb;
