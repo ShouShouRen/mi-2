@@ -12,22 +12,24 @@
 
 /* botton */
 .btn{
-
+    /* structure */
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+    height: 36px;
+    line-height: 36px;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
 }
-.btn.btn--hover{
-
-}
+.btn.btn--hover,
 .btn:hover{
-    
+
 }
 .btn.btn--primary{
 
 }
-
-
-
-
-
 /* card */
 .card{
     background-color: #fbfbfb;
