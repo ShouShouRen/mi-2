@@ -395,6 +395,12 @@
 	box-shadow: 0 -4px 6px rgba(50,50,93,.11), 0 -1px 3px rgba(0,0,0,.08);
 	background-color: #fff;
 }
+.footer--light{
+	background-color: #fbfbfb;
+}
+.footer--dark{
+	background-color: #151730;
+}
 .footer__title{
 	margin-bottom: 24px;
 	color: #6b866b;
@@ -422,7 +428,16 @@
 }
 .copyright{
 	border-top: 1px solid #000;
+	margin-top: 80px;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 .copyright__text{
-
+	color: #B2BAC4;
+	text-align: center;
+}
+.footer--dark .footer__title,
+.footer--dark .footer__link,
+.footer--dark .contact-info__item i{
+	color: #fbfbfb;
 }
