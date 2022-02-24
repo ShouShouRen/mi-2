@@ -208,7 +208,7 @@
 /* avatar */
 .avatar{
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: bottom;
 	width: 100%;
 	border: 1px solid #000;
 	border-radius: 50%;
@@ -230,6 +230,9 @@
 }
 .avatar.avatar--sm{
 	width: 40px;
+}
+.avatar.avatar--fluid{
+	width: 100%;
 }
 
 /* card */
