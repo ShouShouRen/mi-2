@@ -407,6 +407,9 @@
 	text-decoration: none;
 	transition: all .3s;
 }
+.contact-info{
+	margin-bottom: 24px;
+}
 .contact-info__item{
 	padding-left: 32px;
 }
