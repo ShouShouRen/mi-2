@@ -297,3 +297,14 @@
 {
 	color: #7795f8;
 }
+.navbar.navbar--dark{
+	background-color: #151730;
+}
+.navbar--dark .nav__link{
+	color: #fbfbfb;
+}
+.navbar--dark .nav__link:hover,
+.navbar.navbar--dark .nav__link.is-active
+{
+	color: #7795f8;
+}
