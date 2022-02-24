@@ -395,3 +395,13 @@
 	box-shadow: 0 -4px 6px rgba(50,50,93,.11), 0 -1px 3px rgba(0,0,0,.08);
 	background-color: #fff;
 }
+.contact-info__item{
+	padding-left: 32px;
+}
+.contact-info__item i{
+	position: absolute;
+	left: 12px;
+	top: 50%;
+	transform: translateY(-50%);
+	vertical-align: top;
+}
