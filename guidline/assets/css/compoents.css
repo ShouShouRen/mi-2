@@ -245,15 +245,31 @@
 /* nav */
 /* navbar */
 .nav{
-	border: 1px solid #000;
 	display: inline-flex;
 }
 .nav__item{
-	
+
 }
 .nav__link{
+	display: block;
 	text-decoration: none;
+	color: #40414f;
+	padding: 20px 16px;
+	line-height: 24px;
 }
 .navbar{
+	display: flex;
+	justify-content: space-between;
+	min-height: 64px;
+	background-color: #fbfbfb;
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+.navbar__logo{
+	width: 32px;
+	height: 32px;
+	border: 1px solid #000;
+	
+}
+.navbar__nav{
 	
 }
