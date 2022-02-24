@@ -207,21 +207,30 @@
 }
 /* avatar */
 .avatar{
-	display: inline-flex;
+	display: inline-block;
 	vertical-align: top;
-	width: 300px;
+	width: 100%;
 	border: 1px solid #000;
 	border-radius: 50%;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	overflow: hidden;
 }
 .avatar::after{
 	content: '';
 	display: block;
 	padding-top: 100%;
 }
-
+.avatar.avatar--lg{
+	width: 160px;
+}
+.avatar.avatar--md{
+	width: 80px;
+}
+.avatar.avatar--sm{
+	width: 40px;
+}
 
 /* card */
 .card{
