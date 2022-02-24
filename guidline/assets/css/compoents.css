@@ -234,12 +234,50 @@
 .avatar.avatar--fluid{
 	width: 100%;
 }
+/* image container */
+.img-container{
+	width: 100%;
+	display: block;
+	position: relative;
+}
+.img-container::before{
+	content: '';
+	display: block;
+	width: 100%;
+	padding-top: 75%;
+	background-color: #ff0;
+}
+.image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 /* card */
 .card{
     background-color: #fbfbfb;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+.card__body{
+	padding: 16px;
+}
+.card__title{
+	font-size: 20px;
+	color: #6772e5;
+	margin-top: 8px;
+	margin-bottom: 16px;
+}
+.card__para{
+	font-size: 16px;
+	color: #686c71;
+	line-height: 32px;
+	margin-bottom: 16px;
 }
 /* navigation */
 /* nav */
