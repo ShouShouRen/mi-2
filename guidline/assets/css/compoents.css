@@ -420,3 +420,9 @@
 	transform: translate(-50%,-50%);
 	color: #686C71;
 }
+.copyright{
+	border-top: 1px solid #000;
+}
+.copyright__text{
+
+}
