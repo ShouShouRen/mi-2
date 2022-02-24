@@ -212,6 +212,7 @@
 	width: 300px;
 	border: 1px solid #000;
 	border-radius: 50%;
+	background-image: url('../images/designer/designer001.jpg');
 }
 .avatar::after{
 	content: '';
