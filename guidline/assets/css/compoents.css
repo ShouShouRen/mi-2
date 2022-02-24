@@ -282,6 +282,10 @@
 	color: #686c71;
 	line-height: 32px;
 	margin-bottom: 16px;
+	height: 64px;
+	border: 1px solid #000;
+	overflow: hidden;
+	text-align: justify;
 }
 /* navigation */
 /* nav */
