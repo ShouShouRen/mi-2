@@ -316,6 +316,12 @@
 	height: 100%;
 	background-color: rgba(251,251,251,0.3);
 }
+.mask.mask--light{
+	background-color: rgba(251,251,251,0.3);
+}
+.mask.mask--dark{
+	background-color: rgba(103,114,299,0.1);
+}
 /* jumborton */
 .jumbotron{
 	padding-top: 304px;
@@ -324,4 +330,13 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+.jumbotron__heading{
+	font-size: 64px;
+	color: #151730;
+	font-weight: 400;
+}
+.jumbotron__para{
+	font-size: 16px;
+	color: #686c71;
 }
