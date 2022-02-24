@@ -205,6 +205,21 @@
 .social-btns__icon-btn:not(:last-child){
     margin-right: 8px;
 }
+/* avatar */
+.avatar{
+	display: inline-flex;
+	vertical-align: top;
+	width: 300px;
+	border: 1px solid #000;
+	border-radius: 50%;
+}
+.avatar::after{
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+
+
 /* card */
 .card{
     background-color: #fbfbfb;
