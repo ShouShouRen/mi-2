@@ -244,6 +244,16 @@
 /* navigation */
 /* nav */
 /* navbar */
+.nav{
+	border: 1px solid #000;
+	display: inline-flex;
+}
+.nav__item{
+	
+}
+.nav__link{
+	text-decoration: none;
+}
 .navbar{
 	
 }
