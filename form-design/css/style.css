@@ -20,6 +20,13 @@ h1,h2,h3,h4,h5,h6,p{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.row{
+    border: 1px solid #000;
+}
+.col-lg-4,
+.col-lg-8{
+    border: 1px solid #ff0;
+}
 /* compents */
 .card{
     background-color: #fefefe;
