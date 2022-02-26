@@ -48,4 +48,19 @@ input.btn:focus{
 .apply{
     max-width: 1200px;
     margin: auto;
+    padding: 44px 0;
+}
+.apply__title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.apply__subtitle{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-top: 32px;
 }
