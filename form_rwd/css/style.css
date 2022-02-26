@@ -1,0 +1,50 @@
+/* global */
+*{
+    position: relative;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'serif';
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+/* wrapper */
+.wrapper{
+    background-color: #ddd;
+    min-height: 100vh;
+}
+/* components */
+/* card */
+.card{
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 3px 30px rgba(0,0,0,0.3);
+}
+/* button */
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 64px;
+    border: 0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 26px;
+    cursor: pointer;
+}
+.btn.btn--primary{
+    background-color: #ff3b68;
+}
+.btn.btn--secondary{
+    background-color: #333;
+}
+input.btn:focus{
+    outline: 0;
+}
+
+/* styles for apply */
+.apply{
+    
+}
