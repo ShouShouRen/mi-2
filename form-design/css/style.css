@@ -115,6 +115,12 @@ input[type="email"]:focus{
     outline:0;
     border: 1px solid #38b591;
 }
+/* form */
+.form{
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+}
 /* style for signup card */
 .signup{
     width: 960px;
