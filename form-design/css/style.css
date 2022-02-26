@@ -73,10 +73,18 @@ h1,h2,h3,h4,h5,h6,p{
     border: 1px solid #ccc;
     border-radius: 50%;
     text-align: center;
+    color: #333;
+    transition: all .2s;
+}
+.social-btns__item:not(:last-child){
+    margin-right: 8px;
+}
+.social-btns__item:hover{
+    border: 1px solid #38b591;
+    color: #38b591;
 }
 .social-btns__item i{
     font-size: 18px;
-    color: #333;
     line-height: 44px;
     /* position: absolute;
     top: 50%;
