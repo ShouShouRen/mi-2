@@ -46,5 +46,6 @@ input.btn:focus{
 
 /* styles for apply */
 .apply{
-    
+    max-width: 1200px;
+    margin: auto;
 }
