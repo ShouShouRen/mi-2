@@ -48,6 +48,21 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: #4287f5;
     color: #fff;
 }
-.table td{
 
+/* table style for rwd */
+@media(max-width: 576px){
+    .table-container{
+        margin-left: -16px;
+        margin-right: -16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        overflow-x: scroll;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .table-container__inner{
+        width: 576px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
 }
