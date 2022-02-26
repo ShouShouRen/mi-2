@@ -41,3 +41,10 @@ h1,h2,h3,h4,h5,h6,p{
 .signup .row{
     height: 100%;
 }
+.signup__welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
