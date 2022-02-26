@@ -1,0 +1,16 @@
+/* global */
+*{
+    position: relative;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'serif';
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+/* layout */
+.wrapper{
+    background-color: #ccc;
+    height: 100vh;
+}
