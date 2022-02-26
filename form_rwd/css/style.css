@@ -66,6 +66,8 @@ input[type="phone"]:focus{
     outline:0;
     border-color: #ff3b68;
 }
+/* checkbox */
+
 /* form */
 .form{
     display: flex;
@@ -85,8 +87,11 @@ input[type="phone"]:focus{
 .form__btn-group{
     display: flex;
     justify-content: center;
+    padding-top: 8px;
 }
-
+.form__btn-group .btn:not(:last-child){
+    margin-right: 8px;
+}
 
 /* styles for apply */
 .apply{
