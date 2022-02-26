@@ -227,3 +227,19 @@ input[type="email"]:focus{
 .signup__form .form .form__item:last-child{
     margin-top: 24px;
 }
+
+@media(max-width: 992px){
+    .card{
+        width: 500px;
+    }
+}
+@media(max-width: 576px){
+    .card{
+        width: 250px;
+    }
+}
+@media(max-width: 375px){
+    .card{
+        width: 250px;
+    }
+}
