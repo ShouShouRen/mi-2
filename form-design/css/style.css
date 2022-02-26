@@ -115,11 +115,29 @@ input[type="email"]:focus{
     outline:0;
     border: 1px solid #38b591;
 }
+/* input group */
+.input_group input[type="text"],
+.input_group input[type="password"],
+.input_group input[type="email"]{
+    padding: 0 8px 0 48px;
+}
+.input_group i{
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 16px;
+    color: #aaa;
+    z-index: 1;
+}
 /* form */
 .form{
     display: flex;
     flex-direction: column;
     min-width: 320px;
+}
+.form__item{
+    margin-bottom: 8px;
 }
 /* style for signup card */
 .signup{
