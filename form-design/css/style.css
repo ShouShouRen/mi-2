@@ -115,6 +115,10 @@ input[type="email"]:focus{
     outline:0;
     border: 1px solid #38b591;
 }
+/* placeholder */
+::placeholder{
+    color: #aaa;
+}
 /* input group */
 .input_group input[type="text"],
 .input_group input[type="password"],
@@ -139,6 +143,32 @@ input[type="email"]:focus{
 .form__item{
     margin-bottom: 8px;
 }
+.form__item--center{
+    text-align: center;
+}
+/* some decorations */
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: #fbce45;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translate(-50%,-60%);
+    border-radius: 50%;
+}
+.rect{
+    width: 300px;
+    height: 300px;
+    background-color: #e35e6a;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+
+
 /* style for signup card */
 .signup{
     width: 960px;
@@ -193,4 +223,7 @@ input[type="email"]:focus{
 }
 .signup__form .signup__para{
     color: #666;
+}
+.signup__form .form .form__item:last-child{
+    margin-top: 24px;
 }
