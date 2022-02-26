@@ -23,3 +23,21 @@ h1,h2,h3,h4,h5,h6,p{
     border-radius: 4px;
     background-color: #fff;
 }
+/* table */
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th,.table td{
+    border: 1px solid #ccc;
+    line-height: 24px;
+    padding: 12px;
+    text-align-last: left;
+}
+.table th{
+    background-color: #4287f5;
+    color: #fff;
+}
+.table td{
+
+}
