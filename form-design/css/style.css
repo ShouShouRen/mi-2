@@ -48,6 +48,9 @@ h1,h2,h3,h4,h5,h6,p{
     cursor: pointer;
     transition: all .3s;
 }
+input:focus{
+    outline: 0;
+}
 .btn:hover{
     transform: scale(1.05);
 }
@@ -64,7 +67,6 @@ h1,h2,h3,h4,h5,h6,p{
 /* social btns */
 .social-btns{  
     display: flex;
-    border: 1px solid #000;
     margin-bottom: 24px;
 }
 .social-btns__item{
@@ -91,6 +93,18 @@ h1,h2,h3,h4,h5,h6,p{
     left: 50%;
     transform: translate(-50%,-50%); */
 }
+/* form */
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+
 /* style for signup card */
 .signup{
     width: 960px;
