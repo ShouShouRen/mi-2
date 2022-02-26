@@ -43,7 +43,27 @@ h1,h2,h3,h4,h5,h6,p{
 input.btn:focus{
     outline: 0;
 }
-
+/* input */
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: #efefef;
+    border: 1px solid #efefef;
+    line-height: 44px;
+    padding: 0 8px;
+    width: 100%;
+    border-radius: 4px;
+    color: #333;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus{
+    outline:0;
+    border-color: #ff3b68;
+}
 /* styles for apply */
 .apply{
     max-width: 1200px;
