@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        textarea{
+            max-width: 300px;
+            resize: none;
+        }
+    </style>
 </head>
 <body>
     <!-- form -->
@@ -33,6 +39,16 @@
         <input id="woman" type="radio" name="gender" value="woman">
         <label for="woman">女生</label>
         <!-- input submit -->
+        <!-- select -->
+        <label for="Location">出生地</label>
+        <select name="country" id="Location">
+            <option value="1">新北市</option>
+            <option value="2">台北市</option>
+        </select>
+        <!-- textaraea -->
+        <textarea name="" id="" cols="30" rows="10">
+
+        </textarea>
         <input type="submit" value="送出">
         <!-- input reset -->
         <input type="reset" value="重寫">
