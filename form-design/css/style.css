@@ -20,18 +20,30 @@ h1,h2,h3,h4,h5,h6,p{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.row{
+/* .row{
     border: 1px solid #000;
 }
 .col-lg-4,
 .col-lg-8{
     border: 1px solid #ff0;
-}
+} */
 /* compents */
 .card{
     background-color: #fefefe;
     border-radius: 8px;
     box-shadow: 0 3px 30px rgba(0,0,0,0.3);
+}
+/* btn */
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 64px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #fefefe;
 }
 /* style for signup card */
 .signup{
@@ -41,10 +53,34 @@ h1,h2,h3,h4,h5,h6,p{
 .signup .row{
     height: 100%;
 }
-.signup__welcome{
+.signup__center{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
     justify-content: center;
+}
+.signup__welcome{
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.signup__welcome::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(#3aa9ac,#4cbf9a);
+    opacity: 0.9;
+}
+.signup__title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.signup__para{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    text-align: center;
 }
