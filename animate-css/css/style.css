@@ -21,17 +21,19 @@
     /* 執行時間 */
     animation-duration: 4s;
     /* 延遲X開始 */
-    /* animation-delay: 2s; */
+    animation-delay: 3s;
     /* 執行次數 infinite 無限次 */
     /* animation-iteration-count: infinite; */
     /* 執行方向 reverse相反 */
     /* animation-direction: reverse; */
     /* 變換取線 ease ease-in ease-out liner */
-    animation-timing-function: ease;
+    /* animation-timing-function: ease; */
+    /* 結束後位置 */
+    animation-fill-mode: backwards;
 }
 @keyframes moveRight {
     0%{
-        left: 0;
+        left: 0px;
     }
     100%{
         left: 500px;
