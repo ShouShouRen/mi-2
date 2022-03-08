@@ -14,8 +14,8 @@ body{
 }
 /* camera */
 .camera{
-    width: 5px;
-    height: 5px;
+    width: 200px;
+    height: 200px;
     border-radius: 50px;
     border: 10px solid #fff;
 
@@ -23,12 +23,12 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    opacity: 0;
+    opacity: 1;
 
-    animation: 
+    /* animation: 
         ballUp .5s 1s forwards,
         ballDown .2s 1.5s ease-in forwards,
-        cameraIn .3s 1.7s forwards;
+        cameraIn .3s 1.7s forwards; */
 }
 @keyframes ballUp {
     0%{
@@ -68,4 +68,15 @@ body{
         width: 200px;
         height: 200px;
     }
+}
+/* lens */
+.lens{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 15px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
