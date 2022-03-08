@@ -14,8 +14,8 @@ body{
 }
 /* camera */
 .camera{
-    width: 200px;
-    height: 200px;
+    width: 5px;
+    height: 5px;
     border-radius: 50px;
     border: 10px solid #fff;
 
@@ -23,7 +23,12 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    animation: ballUp .5s 1s both;
+    opacity: 0;
+
+    animation: 
+        ballUp .5s 1s forwards,
+        ballDown .2s 1.5s forwards;
+        ;
 }
 
 @keyframes ballUp {
@@ -40,5 +45,14 @@ body{
         width: 5px;
         height: 5px;
         top: 10%;
+        opacity: 1;
+    }
+}
+@keyframes ballDown {
+    0%{
+        top: 10%;
+    }
+    100%{
+        top: 50%;
     }
 }
