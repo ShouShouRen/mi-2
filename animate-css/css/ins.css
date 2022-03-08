@@ -27,10 +27,9 @@ body{
 
     animation: 
         ballUp .5s 1s forwards,
-        ballDown .2s 1.5s forwards;
-        ;
+        ballDown .2s 1.5s ease-in forwards,
+        cameraIn .3s 1.7s forwards;
 }
-
 @keyframes ballUp {
     0%{
         width: 5px;
@@ -54,5 +53,15 @@ body{
     }
     100%{
         top: 50%;
+    }
+}
+@keyframes cameraIn {
+    0%{
+        width: 5px;
+        height: 5px;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
     }
 }
