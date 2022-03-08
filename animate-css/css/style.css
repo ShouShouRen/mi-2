@@ -17,11 +17,11 @@
     height: 80px;
     background-color: #f54266;
     border-radius: 50%;
-    animation-name: moveRight;
+    /* animation-name: moveRight; */
     /* 執行時間 */
-    animation-duration: 4s;
+    /* animation-duration: 4s; */
     /* 延遲X開始 */
-    animation-delay: 3s;
+    /* animation-delay: 3s; */
     /* 執行次數 infinite 無限次 */
     /* animation-iteration-count: infinite; */
     /* 執行方向 reverse相反 */
@@ -29,7 +29,11 @@
     /* 變換取線 ease ease-in ease-out liner */
     /* animation-timing-function: ease; */
     /* 結束後位置 */
-    animation-fill-mode: backwards;
+    /* animation-fill-mode: backwards; */
+
+
+    /* animation: moveRight 4s 3s infinite reverse ease-in forwards; */
+    animation: moveRight 4s 3s forwards;
 }
 @keyframes moveRight {
     0%{
