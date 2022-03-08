@@ -33,16 +33,22 @@
 
 
     /* animation: moveRight 4s 3s infinite reverse ease-in forwards; */
-    animation: 
-        moveRight 3s forwards,
-        moveDown 2s 3s forwards;
+    /* animation: 
+        moveRight 3s 2 forwards,
+        moveDown 2s 6s forwards; */
+
+    animation-name: moveRight;
+    animation-duration: 4s;
+    animation-name: moveDown;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
 }
 @keyframes moveRight {
     0%{
         left: 0px;
     }
     100%{
-        left: 500px;
+        left: 300px;
     }
 }
 @keyframes moveDown {
@@ -50,6 +56,10 @@
         top: 0px;
     }
     100%{
-        top: 300px;
+        bottom: 300px;
     }
 }
+
+
+
+
