@@ -35,7 +35,7 @@
     /* animation: moveRight 4s 3s infinite reverse ease-in forwards; */
     animation: 
         moveRight 3s forwards,
-        moveDown 3s;
+        moveDown 2s 3s forwards;
 }
 @keyframes moveRight {
     0%{
