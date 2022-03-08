@@ -24,4 +24,34 @@ a{
     font-family: "serif";
     font-size: 20px;
     font-weight: 600;
+    overflow: hidden;
+    transition: color 2s;
+}
+.btn::before{
+    content: '';
+    display: block;
+    width: 320px;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 130px;
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    transform: translate(-50%,0);
+    animation: wave 5s infinite linear;
+    transition: all 1s;
+}
+.btn:hover::before{
+    top: 15px;
+}
+.btn:hover{
+    color: black;
+}
+@keyframes wave {
+    0%{
+        transform: translate(-50%,0) rotate(0deg);  
+    }
+    100%{
+        transform: translate(-50%,0) rotate(360deg);
+    }
 }
