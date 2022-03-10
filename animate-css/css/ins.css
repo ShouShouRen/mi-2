@@ -29,6 +29,7 @@ body{
         ballUp .5s 1s forwards,
         ballDown .2s 1.5s ease-in forwards,
         cameraIn .3s 1.7s forwards;
+    perspective: 500px;
 }
 @keyframes ballUp {
     0%{
@@ -152,5 +153,46 @@ body{
     }
     100%{
         opacity: 0;
+    }
+}
+
+/* picture */
+.picture{
+    width: 120px;
+    height: 0px;
+    border: 10px solid #fff;
+    background-color: #ccc;
+    opacity: 0;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,0%);
+
+    animation: 
+    pictureIn 1s 3.5s forwards
+   ,pictureFlip 1s 4.5s forwards;
+}
+@keyframes pictureIn {
+    0%{
+        height: 0;
+        opacity: 0;
+    }
+    100%{
+        height: 120px;
+        opacity: 1;
+    }
+}
+@keyframes pictureFlip {
+    0%{
+        height: 120px;
+        width: 120px;
+        transform: translate(-50%,0%) rotateX(0deg);
+    }
+    100%{
+        width: 250px;
+        height: 250px;
+        top: 50%;
+        transform: translate(-50%,-50%) rotateX(360deg);
     }
 }
