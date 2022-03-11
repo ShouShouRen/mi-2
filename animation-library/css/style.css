@@ -72,7 +72,38 @@ h2,p{
     font-weight: 300;
     margin-bottom: 48px;
 }
-
-
-
 /* animation */
+.product-item.animated .image-container::after{
+
+}
+.product-item.animated .title{
+    animation: ani-fadeInUp .5s .5s backwards;
+}
+.product-item.animated .para{
+    animation: ani-fadeInUp .5s .5s backwards;
+}
+.product-item.animated .btn{
+    animation: ani-fadeInUp .5s .5s backwards;
+}
+
+
+
+@keyframes ani-fadeInUp {
+    0%{
+        transform: translate(0,50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
