@@ -11,8 +11,17 @@ h2,p{
 /* component */
 .btn{
     display: inline-block;
+    vertical-align: top;
     color: #666;
     text-decoration: none;
+    border: 2px solid #666;
+    padding: 16px 32px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: #666;
+    color: #fff;
 }
 .image-container{
     border: 1px solid #000;
@@ -47,6 +56,9 @@ h2,p{
     color: #484848;
     font-weight: 600;
     margin-bottom: 32px;
+}
+.product-item .title--left{
+    margin-left: -64px;
 }
 .product-item .para{
     font-size: 20px;
