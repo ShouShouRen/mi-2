@@ -81,7 +81,10 @@ h2,p{
     width: 8px;
     height: 0px;
     background-color: #484848;
-    animation: ani-drawLine .3s forwards;
+    animation:
+    ani-drawLine .3s forwards,
+    ani-fillWidth 3s 
+    ;
 }
 @keyframes ani-drawLine {
     0%{
