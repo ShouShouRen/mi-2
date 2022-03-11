@@ -53,7 +53,7 @@ h2,p{
 /* product-item */
 .product-item:not(:last-child){
     margin-bottom: 320px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 .product-item .title{
     font-size: 64px;
@@ -74,16 +74,42 @@ h2,p{
 }
 /* animation */
 .product-item.animated .image-container::after{
-
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 0px;
+    background-color: #484848;
+    animation: ani-drawLine .3s forwards;
+}
+@keyframes ani-drawLine {
+    0%{
+        width: 8px;
+        height: 0;
+    }
+    100%{
+        width: 8px;
+        height: 100%;
+    }
+}
+@keyframes ani-fillWidth {
+    0%{
+        width: 8px;
+        height: 0;
+    }
+    100%{
+        width: 100%;
+    }
 }
 .product-item.animated .title{
     animation: ani-fadeInUp .5s .5s backwards;
 }
 .product-item.animated .para{
-    animation: ani-fadeInUp .5s .5s backwards;
+    animation: ani-fadeInUp .5s .65s backwards;
 }
 .product-item.animated .btn{
-    animation: ani-fadeInUp .5s .5s backwards;
+    animation: ani-fadeInUp .5s .8s backwards;
 }
 
 
