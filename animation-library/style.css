@@ -16,6 +16,7 @@ h2,p{
     border: 1px solid #000;
     width: 100%;
     display: block;
+    position: relative;
 }
 .image-container::before{
     content: '';
@@ -23,13 +24,35 @@ h2,p{
     width: 100%;
     padding-top: 133.333333%;
 }
+.image-container .image{
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 /* hero */
 .hero{
-
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 /* product-item */
 .product-item{
 
+}
+.product-item .title{
+    font-size: 64px;
+    color: #484848;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.product-item .para{
+    font-size: 20px;
+    color: #484848;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 48px;
 }
 
 
