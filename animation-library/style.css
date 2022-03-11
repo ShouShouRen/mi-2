@@ -35,6 +35,9 @@ h2,p{
     width: 100%;
     padding-top: 133.333333%;
 }
+.image-ratio-1-1::before{
+    padding-top: 100%;
+}
 .image-container .image{
     position: absolute;
     inset: 0;
@@ -48,8 +51,9 @@ h2,p{
     padding-bottom: 200px;
 }
 /* product-item */
-.product-item{
-
+.product-item:not(:last-child){
+    margin-bottom: 320px;
+    border: 1px solid #000;
 }
 .product-item .title{
     font-size: 64px;
