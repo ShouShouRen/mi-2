@@ -15,6 +15,10 @@
     <div class="wrapper">
         <section class="main">
             <div class="jumbotron">
+                <div class="slider-transition">
+                    <div class="panel panel-1"></div>
+                    <div class="panel panel-2"></div>
+                </div>
                 <div class="owl-carousel owl-theme">
                     <div class="slider-item">
                         <div class="slider-item__image" style="background-image: url('https://picsum.photos/id/89/1600/800');"></div>
@@ -25,7 +29,7 @@
                                     <p class="slider-item__para">
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias numquam harum, odit vel cum officiis deserunt consectetur porro esse vitae expedita facere praesentium labore. Pariatur consequatur praesentium ratione! Inventore, tempore?
                                     </p>
-                                    <a href="#!" class="btn">GIVE IT A TRY</a>
+                                    <a href="#!" class="btn slider-item__btn">GIVE IT A TRY</a>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +43,7 @@
                                     <p class="slider-item__para">
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias numquam harum, odit vel cum officiis deserunt consectetur porro esse vitae expedita facere praesentium labore. Pariatur consequatur praesentium ratione! Inventore, tempore?
                                     </p>
-                                    <a href="#!" class="btn">GIVE IT A TRY</a>
+                                    <a href="#!" class="btn slider-item__btn">GIVE IT A TRY</a>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +57,7 @@
                                     <p class="slider-item__para">
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias numquam harum, odit vel cum officiis deserunt consectetur porro esse vitae expedita facere praesentium labore. Pariatur consequatur praesentium ratione! Inventore, tempore?
                                     </p>
-                                    <a href="#!" class="btn">GIVE IT A TRY</a>
+                                    <a href="#!" class="btn slider-item__btn">GIVE IT A TRY</a>
                                 </div>
                             </div>
                         </div>
@@ -75,9 +79,8 @@
             loop: true,
             mouseDrag: false
         })
-        $('.owl-carousel').on('changed.owl.carousel',
-            function(event){
-                
+        $('.owl-carousel').on('changed.owl.carousel',function(event){
+            $('.slider-transition').addClass('animated');
         })
     })
 </script>
