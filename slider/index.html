@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./bootstrap-grid.css">
+    <link rel="stylesheet" href="./dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./animate.css">
     <link rel="stylesheet" href="./style.css">
@@ -14,11 +15,14 @@
     <div class="wrapper">
         <section class="main">
             <div class="jumbotron">
-                <div class="owl-carousel">
-                    <div class="slider-item">213</div>
-                    <div class="slider-item">213</div>
-                    <div class="slider-item">213</div>
-                    <div class="slider-item">213</div>
+                <div class="owl-carousel owl-theme">
+                    <div class="slider-item">
+                        <div class="slider-item__image" style="background-image: url('https://picsum.photos/id/39/1600/800');"></div>
+                        <div class="slider-item__content">
+                            <h2>title</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae odio, saepe et alias tempore vel itaque consequatur neque facere vero eveniet perspiciatis repudiandae fuga error, rem in architecto eos dolorum.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -30,7 +34,11 @@
     $(document).ready(function(){
         // OWL carousel
         $('.owl-carousel').owlCarousel({
-
+            items: 1,
+            nav: true,
+            navText: [],
+            loop: true,
+            mouseDrag: false
         })
     })
 </script>
