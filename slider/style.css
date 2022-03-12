@@ -108,14 +108,14 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .owl-theme .owl-nav button.owl-prev{
     left: 16px;
-    background-image: url('./back.svg');
+    background-image: url('./images/back.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 .owl-theme .owl-nav button.owl-next{
     right: 16px;
-    background-image: url('./next.svg');
+    background-image: url('./images/next.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -139,28 +139,27 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* slider transition */
-.slider-transition{
+.slider-transition.animated{
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    border: 5px solid #fff;
     z-index: 50;
+    overflow: hidden;
 }
-.slider-transition .panel{
+.slider-transition.animated .panel{
     height: 100%;
     position: absolute;
     left: 0;
-    width: 500px;
 }
-.slider-transition .panel-1{
+.slider-transition.animated .panel-1{
     background-color: #ff9696;
     animation: sliderPanel1 1s;
 }
-.slider-transition .panel-2{
+.slider-transition.animated .panel-2{
     background-color: #ff6666;
-    animation: ;
+    animation: sliderPanel2 1s;
 }
 @keyframes sliderPanel1 {
     0%{
@@ -175,4 +174,24 @@ h1,h2,h3,h4,h5,h6,p{
         width: 0;
         left: 100%;
     }
+}
+@keyframes sliderPanel2 {
+    0%{
+        width: 0;
+        left: 0;
+    }
+    50%{
+        width: 40%;
+        left: 70%;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
+/* drop animation */
+.drops{
+    position: absolute;
+    inset: 0;
+    border: 1px solid #000;
 }
