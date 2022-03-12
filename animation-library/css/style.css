@@ -83,7 +83,8 @@ h2,p{
     background-color: #484848;
     animation:
     ani-drawLine .3s forwards,
-    ani-fillWidth 3s 
+    ani-fillWidth 2s .5s forwards,
+    ani-block-Out .2s .5s forwards
     ;
 }
 @keyframes ani-drawLine {
@@ -99,10 +100,32 @@ h2,p{
 @keyframes ani-fillWidth {
     0%{
         width: 8px;
-        height: 0;
     }
     100%{
         width: 100%;
+    }
+}
+@keyframes ani-block-Out {
+    0%{
+        width: 100%;
+        left: inherit;
+        right: 0;
+    }
+    100%{
+        width: 0%;
+        left: inherit;
+        right: 0;
+    }
+}
+.product-item.animated .image-container .image{
+    animation: ani-fadeIn .5s .6s backwards;
+}
+@keyframes ani-fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
 .product-item.animated .title{
