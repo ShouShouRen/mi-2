@@ -81,6 +81,9 @@
         })
         $('.owl-carousel').on('changed.owl.carousel',function(event){
             $('.slider-transition').addClass('animated');
+            setTimeout(function(){
+                $('.slider-transition').removeClass('animated');
+            },800)
         })
     })
 </script>
