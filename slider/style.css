@@ -195,3 +195,26 @@ h1,h2,h3,h4,h5,h6,p{
     inset: 0;
     border: 1px solid #000;
 }
+.drops img{
+    position: absolute;
+}
+.drops-item-1{
+    left: 25%;
+    width: 100px !important;
+}
+.drops-item-2{
+    left: 70%;
+    width: 120px !important;
+}
+.drops-item-3{
+    left: 50%;
+    width: 140px !important;
+}
+.drops-item-4{
+    left: 25%;
+    width: 100px !important;
+}
+.drops-item-5{
+    left: 85%;
+    width: 160px !important;
+}
